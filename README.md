@@ -26,3 +26,4 @@ Créer une base de données centralisant les accidents corporels pour identifier
 | 2 | ETL (chargement et nettoyage) | Notebook `etl_accidents.ipynb` |
 | 3 | Création de la base SQL + MCD | `schema.sql` + MCD.png |
 | 4 | Analyse SQL + rendu final | `requetes.sql` + README final |
+
