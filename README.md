@@ -17,7 +17,7 @@ Créer une base de données centralisant les accidents corporels pour identifier
 - Python (Pandas, SQLAlchemy)
 - MySQL ou SQLite
 - SQL (requêtes analytiques)
-- draw.io / Lucidchart (MCD)
+- draw.io / Lucidchart (MCD) -> https://lucid.app/lucidchart/faf28986-9745-4e9d-bbdb-2799e8cf8024/edit?viewport_loc=-240%2C-96%2C2253%2C1105%2C0_0&invitationId=inv_94fe03bf-afc7-437b-8b38-7539488889af
 
 ## 🗓️ Planning (4 jours)
 | Jour | Objectif principal | Livrable |
