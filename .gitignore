@@ -1,4 +1,28 @@
-venv/pyvenv.cfg
-venv/bin/python
-venv/bin/python3
-venv/bin/python3.10
+# --- Environnement virtuel ---
+venv/
+.env
+*.env
+
+# --- Données ---
+data/
+*.csv
+*.db
+
+# --- Fichiers temporaires ---
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# --- Notebooks checkpoints (Jupyter) ---
+.ipynb_checkpoints/
+
+# --- Fichiers système ---
+.DS_Store
+Thumbs.db
+
+# Garder les dossiers data/ mais ignorer leur contenu
+data/**
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/cleaned/.gitkeep
