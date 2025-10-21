@@ -1,6 +1,7 @@
 # --- Environnement / secrets ---
 venv/
 .env
+.venv
 *.env
 
 # --- Données (on garde l’arborescence, pas les fichiers) ---
