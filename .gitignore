@@ -1,29 +1,38 @@
-# --- Environnement virtuel ---
+# --- Environnement / secrets ---
 venv/
 .env
 *.env
 
-# --- Données ---
-data/
-*.csv
-*.db
-!doc/dico.csv
-
-# --- Fichiers temporaires ---
-__pycache__/
-*.pyc
-*.pyo
-*.log
-
-# --- Notebooks checkpoints (Jupyter) ---
-.ipynb_checkpoints/
-
-# --- Fichiers système ---
-.DS_Store
-Thumbs.db
-
-# Garder les dossiers data/ mais ignorer leur contenu
+# --- Données (on garde l’arborescence, pas les fichiers) ---
 data/**
 !data/.gitkeep
 !data/raw/.gitkeep
 !data/cleaned/.gitkeep
+
+# Formats data lourds (au cas où ils se faufilent hors data/)
+*.csv
+*.parquet
+*.feather
+*.arrow
+*.fgb
+*.gpkg
+*.geojson
+*.jsonl
+*.xlsx
+*.zip
+*.gz
+*.bz2
+*.xz
+*.db
+
+# éventuel dico léger
+!doc/dico.csv
+
+# --- Fichiers temporaires / IDE / notebooks ---
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
