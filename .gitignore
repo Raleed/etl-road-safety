@@ -4,11 +4,7 @@ venv/
 .venv
 *.env
 
-# --- Données (on garde l’arborescence, pas les fichiers) ---
-data/**
-!data/.gitkeep
-!data/raw/.gitkeep
-!data/cleaned/.gitkeep
+# --- Données (on garde l’arborescence, pas les fichiers) --
 
 # Formats data lourds (au cas où ils se faufilent hors data/)
 *.csv
