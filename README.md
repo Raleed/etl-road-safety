@@ -62,3 +62,6 @@ etl-road-safety/
 ├── schema.sql
 ├── requetes.sql
 └── README.md
+
+dans le venv ->
+pip install psycopg2-binary SQLAlchemy python-dotenv
