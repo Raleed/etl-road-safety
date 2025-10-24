@@ -46,6 +46,7 @@ data/raw/
 
 
 ### 📂 Structure attendue du projet :
+arborescence projet 🌳
 etl-road-safety/
 ├── data/
 │ ├── raw/
@@ -63,5 +64,4 @@ etl-road-safety/
 ├── requetes.sql
 └── README.md
 
-dans le venv ->
-pip install psycopg2-binary SQLAlchemy python-dotenv
+![Description de l'image](./images/schema.png)
